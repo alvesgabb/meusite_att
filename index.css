@@ -1,0 +1,99 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    min-height: 200px;
+    padding: 0 20px;
+    justify-content: flex-start;
+    line-height: 40px;
+    flex-direction: column;
+    background-color: #E2D397;
+}
+
+.topo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+}
+
+.logo 
+{ font-size: 30px;
+
+}
+
+h2{
+ font-size: 60px;
+ color: aliceblue;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    font-size:25px ;
+}
+nav a {
+text-decoration: none;
+color: aliceblue;
+}
+
+.frasetopo {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 5px;
+    
+}
+.explore {
+    font-size: 30px;
+}
+
+h1{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 50px;
+    color: #E2D397;
+}
+.destaques {
+    text-align: center;
+}
+.destaques ul {
+    margin-top: 50px;
+     display: flex;
+     justify-content: center;
+     list-style: none;
+     gap: 50px
+}
+
+.destaques li {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.destaques img {
+
+    max-height: 400px;
+    border-radius: 5px;
+    width: 200px;
+    height: 300px;
+}
+
+.destaques button {
+    margin-top: 10px;
+    background-color:  #E2D397;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-size: 15px;
+    font-weight: 600;
+}
